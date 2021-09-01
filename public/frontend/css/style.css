@@ -1,0 +1,305 @@
+body{
+    background: #ededf5;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a.hover{
+    text-decoration: none;
+    color:#5842e3 ;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.9);
+    border:none;
+}
+.btn{
+    background: #ededf5;
+    padding: 10px 25px;
+    
+}
+.btn-theme{
+    background: #5842e3;
+    color: white;
+}
+.btn-theme:hover{
+    background: #5842e3;
+    color: white;
+}
+.invalid-feedback{
+    display: block;
+}
+/*------ Sweet Alert -------*/
+.swal2-popup{
+    border-radius: 10px !important;
+}
+.swal2-title{
+    font-size: 18px !important;
+}
+.swal2-styled{
+    border-radius: 10px !important;
+    padding: 10px 25px !important;
+}
+.swal2-styled.swal2-confirm{
+    background:#5842e3 !important;
+}
+
+
+
+/*---------Auth Form-----------*/
+.auth-form{
+    box-shadow: 0 3px 8px rgba(0,0,0, 0.15);
+    border:none;
+    border-radius: 10px;
+}
+
+
+.auth-form a{
+    color: #333;
+    text-decoration: none;
+}
+
+.auth-form a:hover{
+    color: #5842e3;
+}
+
+
+
+
+
+/*------------------header menu --------------*/
+.header-menu{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    z-index: 999;
+}
+.header-menu a{
+    text-decoration: none;
+    color: #000;
+}
+.header-menu i{
+    font-size: 20px;
+}
+.header-menu h3{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.header-menu a:hover i{
+    color: #5842e3;
+    transition: .3s;
+}
+.header-menu a:hover p{
+    color: #5842e3;
+    transition: .3s;
+}
+/*------------------Bottom menu --------------*/
+.bottom-menu{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.bottom-menu i{
+    margin-top: 12px;
+    font-size: 18px;
+    
+}
+.bottom-menu p{
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+.bottom-menu a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+.bottom-menu a:hover i{
+    color: #5842e3;
+    transition: .3s;
+}
+.bottom-menu a:hover p{
+    color: #5842e3;
+    transition: .3s;
+}
+
+/*---------------Main Content----------------*/
+.content{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/*----------Account --------------*/
+
+
+.account .card{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.9);
+}
+.account a:hover{
+    text-decoration: none;
+}
+/*----------Profile---------------*/
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+/*----------Update Password -----------*/
+.update-password img{
+    width: 220px;
+}
+
+/*--------Scan Tab ----------*/
+.scan-tab{
+    width: 62px;
+    height: 62px;
+    background: #ededf5;
+    border-radius: 100%;
+    margin:0 auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.scan-tab .inside{
+    height: 52px;
+    width: 52px;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation:glow 5s infinite;
+}
+.scan-tab .inside i{
+    margin: 0;
+
+}
+
+
+@keyframes glow{
+    0% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+    40% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    60% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    100% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+}
+/*--------Wallet ----------*/
+
+.wallet .my-card{
+    background: #5842e3;
+    color: #fff;
+}
+.wallet .my-card span{
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #ededf5;
+}
+.wallet .my-card h4{
+    font-size: 22px;
+    font-weight: 900;
+}
+.wallet .my-card h5{
+    font-size: 18px;
+    font-weight: 900;
+}
+.wallet .my-card p{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/*-----------Home-------------*/
+.shortcut-box img{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.function-box img{
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}  
+.function-box a{
+    text-decoration: none;
+}
+.function-box a:hover{
+    text-decoration: none;
+    color:#5842e3 ;
+}
+.home a{
+    text-decoration: none;
+    color: #000;
+}
+.home a:hover{
+    color: #5842e3;
+}
+/*--------------------Transaction--------------*/
+.transaction-detail img{
+    width: 60px;
+}
+.transaction a{
+    text-decoration: none;
+}
+/*-------Pagination---------*/
+.h-5{
+    width: 20px;
+    
+}
+.flex p{
+    display: none !important;
+}
+.flex .text-sm .font-medium{
+    display: none !important;
+}
+.flex span{
+    margin-top: 20px;
+}
+
+.flex .flex{
+    display: none;
+}
+.flex .hidden{
+    margin-top: 15px;
+}
+.unread_noti_count{
+    position: absolute;
+    top: -8px;
+    right: 15px;
+    padding: 3px;
+}
+
+
+
+
+
+
